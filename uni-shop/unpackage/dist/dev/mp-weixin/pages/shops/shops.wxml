@@ -1,0 +1,1 @@
+<goods-list vue-id="00a052c4-1" goodsArr="{{goodsArr}}" bind:__l="__l"></goods-list>

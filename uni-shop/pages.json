@@ -3,14 +3,91 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/shops/shops",
+            "style" : {
+				"navigationBarTitleText": "黑马超市",
+				"onReachBottomDistance":100,
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {
+				"navigationBarTitleText": "联系我们"
+			}
+        }
+        ,{
+            "path" : "pages/pictures/pictures",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/news_detail/news_detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goods_detail/goods_detail",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "黑马程序",
+		"navigationBarBackgroundColor": "#ff1f1f",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#d81e06",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/icon/home.png",
+	        "selectedIconPath": "static/icon/home-active.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/news/news",
+	        "iconPath": "static/icon/news.png",
+	        "selectedIconPath": "static/icon/news-active.png",
+	        "text": "资讯"
+	    },
+		{
+		    "pagePath": "pages/cart/cart",
+		    "iconPath": "static/icon/cart.png",
+		    "selectedIconPath": "static/icon/cart-active.png",
+		    "text": "购物车"
+		},{
+	        "pagePath": "pages/member/member",
+	        "iconPath": "static/icon/member.png",
+	        "selectedIconPath": "static/icon/member-active.png",
+	        "text": "会员"
+	    }
+		]
 	}
 }
